@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/036/594/542/non_2x/ai-generated-cooking-class-advertisment-background-with-copy-space-free-photo.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  .nav_bar {
+    background-color: rgb(99, 73, 4);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .nav_bar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav_list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: medium;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .authentication {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    justify-content: center;
+  }
+  
+  .lg_card {
+    background-color: #363636;
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 6px;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+    color: #ffffff;
+
+  }
+  
+  .lg_card:hover {
+    background-color: #000000;
+    color: #ff8a04;
+  }
+
+  .user_types{
+    color: #ff8a04;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(54, 40, 0);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  /* register page */
+  
+  .register_form {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #363636;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    margin-bottom: 15px;
+    padding: 6px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: medium;
+  }
+  
+  input[type="submit"] {
+    background-color: #8f8f8f;
+    color: white;
+  }
+  input[type="submit"]:hover {
+    background-color: #000000;
+    color: #ff8a04;
+  }
+  
+  label {
+    font-size: large;
+    color: white;
+  }
+  
+  .radio_group {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .login-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* end register page */
+  
